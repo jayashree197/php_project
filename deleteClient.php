@@ -17,7 +17,7 @@ if (isset($_GET['id'])) {
     // Set a success message in the session
     $_SESSION['success_message'] = "Participant deleted successfully!";
 
-    // Redirect back to the participants page (index.php or search.php)
+    // Redirect back to the participants page (index.php)
     header("Location: index.php");
     exit;
 } else {
